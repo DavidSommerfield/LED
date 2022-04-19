@@ -1,7 +1,8 @@
-import LED, numpy as np
+import numpy as np
+from LED import *
 from math import floor
 
-W, H = LED.get_width(), LED.get_height()
+W, H = get_width_adjusted(), get_height_adjusted()
 
 # generating the range of x values and y values
 xvals = np.arange(0, W)
@@ -9,7 +10,7 @@ yvals = np.arange(0, H)
 palette = [(5, 5, 24), (107, 31, 255), (204, 40, 195), (255, 255, 200)]
 scale = 1
 zoom = 1.025
-max_zoom = 18014398509481984 # a very large number, right before floating point representation breaks
+max_zoom = 2**54 # a very large number, right before floating point representation breaks
 
 while True:
     # zoom in and out
@@ -40,6 +41,6 @@ while True:
     # draw each pixel
     for y, row in enumerate(iters):
         for x, pixel in enumerate(row):
-            LED.draw_pixel(x, y, LED.merge_palette(palette, pixel / detail))
+            draw_pixel(x, y, merge_palette(palette, pixel / detail))
 
-    LED.draw()
+    draw()

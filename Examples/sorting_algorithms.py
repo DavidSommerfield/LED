@@ -1,4 +1,3 @@
-from re import L
 from LED import *
 from random import randint
 from math import pi
