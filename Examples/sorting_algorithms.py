@@ -1,6 +1,5 @@
 from LED import *
 from random import randint
-from math import pi
 
 set_orientation(1)
 W , H = get_width_adjusted(), get_height_adjusted()
@@ -147,11 +146,7 @@ def merge(left,right,x_off,level):
     draw()
 
     return sorted
-        
-# merge them, sorting in the process
 
-
-# heap sort
 sort_num = 0
 
 while True:
