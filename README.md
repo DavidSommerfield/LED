@@ -4,9 +4,11 @@ A python package for creating and simulating graphical applications that display
 Here's some pretty images and videos of the LED grid and its simulator:
 
 https://user-images.githubusercontent.com/22718210/164121139-90d2560b-615a-4e34-96de-4e1df4ce8af0.mp4
+
 A topdown psuedo-3D procedurally generated rogue-like shooter, with full native controller support. Made over the weekend after the hackathon.
 
 https://user-images.githubusercontent.com/22718210/164121588-59dc5f7c-1c21-4f9e-8b7a-a88a2b400d9b.mp4
+
 A fractal zoomer, the coolest part about this is that the code fits in just 46 lines, including white spaces and comments!
 
 ![voronoi](https://user-images.githubusercontent.com/22718210/164121674-fb5c522a-1240-46e9-967c-c2679257c367.jpg)
