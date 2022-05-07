@@ -1,6 +1,7 @@
 # LED
 A python package for creating and simulating graphical applications that display on an LED grid. The package is fully documented and designed to be versatile, but very easy to use. Take a look at the examples to see just how easy it is to an idea from your hand into code using the LED package!
 
+**YouTube Trailer**
 [![WiLED](https://img.youtube.com/vi/WWUICMdFa3I/0.jpg)](https://www.youtube.com/watch?v=WWUICMdFa3I)
 
 **Here's some pretty images and videos of the LED grid and its simulator:**
