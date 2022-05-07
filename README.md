@@ -3,7 +3,7 @@ A python package for creating and simulating graphical applications that display
 
 **YouTube Trailer**
 
-[![WiLED](https://img.youtube.com/vi/WWUICMdFa3I/0.jpg)](https://www.youtube.com/watch?v=WWUICMdFa3I)
+[![WiLED](https://imgur.com/0CPYuYF)](https://www.youtube.com/watch?v=WWUICMdFa3I)
 
 **Here's some pretty images and videos of the LED grid and its simulator:**
 
